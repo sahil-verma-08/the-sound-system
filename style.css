@@ -1,0 +1,438 @@
+body {
+ background:  linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+ margin: auto;
+ margin-left: 20px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(75, 75, 250, 0.3);
+  border-radius: 3px;
+}
+.center h1 {
+  text-align: center;
+  color: white;
+  font-family: "Source Code Pro", monospace;
+  text-transform: uppercase;
+}
+
+.animate-charcter {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    rgb(132, 215, 242) 0%,
+    rgb(252, 94, 118) 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.top-left-1-name {
+  color: #646161;
+}
+.top-left-2-name {
+  color: aqua;
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+nav {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.line-5 {
+  height: 3px;
+  width: 635px;
+  border-image-slice: 2;
+  background-image: linear-gradient(90deg, white 0%, rgb(92, 92, 255) 100%);
+  box-shadow: 0 0 12px 1px #4baeff;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  
+  color: white;
+  border-radius: 10px;
+}
+
+.nav-info {
+  text-shadow: 6px 6px 10px rgba(0, 106, 255, 0.9);
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+.brand img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 0 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.container {
+  min-height: 72vh;
+  background: transparent;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border: 2px solid white;
+  overflow: auto;
+  box-shadow: 0 0 6px rgba(255, 255, 255, 0.9);
+  height: 10px;
+  width: 100%px;
+  overflow: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.bottom {
+  position: sticky;
+  bottom: 0;
+  height: 100px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 24px;
+}
+
+.songList {
+  width: 100%;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+  transition: box-shadow, opacity, 0.4s;
+}
+.songItem:hover {
+  box-shadow: 0 0 10px rgba(42, 131, 255, 0.9);
+  height: 65px;
+  opacity: 0.7;
+}
+
+.songItem img {
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+
+.timestamp {
+  margin: 0 23px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+p {
+  margin: 0px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.top-left {
+  font-family: arial, sans-serif;
+  width: 250px;
+  background-color: rgb(40, 40, 43);
+  color: white;
+  border-radius: 10px;
+  padding: auto;
+  margin-top: 35px;
+}
+.sub-top-left1 {
+  display: flex;
+  padding-top: 23px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+}
+.top-left2 {
+  margin-top: 50px;
+  font-family: arial, sans-serif;
+  width: 250px;
+  height: 280px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-color: rgb(40, 40, 43);
+  color: white;
+  border-radius: 10px;
+  padding: auto;
+  padding-top: 10px;
+}
+.add {
+  margin-left: 20px;
+}
+.right-part {
+  width: 400px;
+  height: 300px;
+  background-color: lightblue;
+  display: flex;
+}
+.top-left3 {
+  font-family: arial, sans-serif;
+  width: 220px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-color: rgb(40, 40, 43);
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.top-left3-box1 {
+  background-color: #242424;
+  border-radius: 4px;
+  padding-left: 7px;
+  padding-bottom: 15px;
+  width: 220px;
+}
+.top-left3-box2 {
+  background-color: #242424;
+  width: 220px;
+  border-radius: 4px;
+  padding-left: 7px;
+  padding-bottom: 15px;
+}
+
+.top-left4 {
+  font-family: arial, sans-serif;
+  width: 230px;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 40, 43);
+  color: rgb(148, 144, 144);
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a {
+  color: rgb(202, 195, 195);
+  text-decoration: none;
+  font-size: 13px;
+  margin: 10px;
+}
+.logo {
+  background-size: cover;
+  background-position: center;
+}
+/* .songitem1 {
+  background-image: url(album13.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem2 {
+  background-image: url(album12.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem3 {
+  background-image: url(album11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem4 {
+  background-image: url(album10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem5 {
+  background-image: url(album9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem6 {
+  background-image: url(album8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem7 {
+  background-image: url(album7.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem8 {
+  background-image: url(album6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem9 {
+  background-image: url(album5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.songitem10 {
+  background-image: url(album4.jpeg);
+  
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.container2 {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.25);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 38px;
+  filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.sub-container2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.wrapper2 {
+  width: 200px;
+  height: 50%;
+}
+
+.banner-image {
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+
+  transition: 1s ease;
+}
+
+.banner-image:hover {
+  height: 200px;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+  transition: 1s ease;
+}
+.banner-image-details {
+  margin-top: 10px;
+}
+.banner-image-details-head {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.banner-image-details-artist {
+  color: #3d3d3d;
+  text-shadow: 0 0 6px rgba(88, 86, 86, 0.5);
+}
+
+.playlist-section h1 {
+  font-family: "Righteous", sans-serif;
+  color: rgba(255, 255, 255, 0.98);
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  background: -webkit-linear-gradient(#f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>www.vibrodo-deck.com</title>
+    <link rel="stylesheet" href="vibrodo-deck.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+         <h2>The Sound System</h2>
+        </div>
+
+        <div class="navbar">
+          <div class="wrapper">
+            <div class="search-icon-wrapper">
+              <img
+                class="search-icon"
+                src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDU2Ljk2NiA1Ni45NjYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDU2Ljk2NiA1Ni45NjY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPHBhdGggZD0iTTU1LjE0Niw1MS44ODdMNDEuNTg4LDM3Ljc4NmMzLjQ4Ni00LjE0NCw1LjM5Ni05LjM1OCw1LjM5Ni0xNC43ODZjMC0xMi42ODItMTAuMzE4LTIzLTIzLTIzcy0yMywxMC4zMTgtMjMsMjMgIHMxMC4zMTgsMjMsMjMsMjNjNC43NjEsMCw5LjI5OC0xLjQzNiwxMy4xNzctNC4xNjJsMTMuNjYxLDE0LjIwOGMwLjU3MSwwLjU5MywxLjMzOSwwLjkyLDIuMTYyLDAuOTIgIGMwLjc3OSwwLDEuNTE4LTAuMjk3LDIuMDc5LTAuODM3QzU2LjI1NSw1NC45ODIsNTYuMjkzLDUzLjA4LDU1LjE0Niw1MS44ODd6IE0yMy45ODQsNmM5LjM3NCwwLDE3LDcuNjI2LDE3LDE3cy03LjYyNiwxNy0xNywxNyAgcy0xNy03LjYyNi0xNy0xN1MxNC42MSw2LDIzLjk4NCw2eiIgZmlsbD0iIzAwMDAwMCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K"
+              />
+            </div>
+            <input class="search" placeholder="Search" type="text" />
+            <img
+              class="clear-icon"
+              src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDUxLjk3NiA1MS45NzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxLjk3NiA1MS45NzY7IiB4bWw6c3BhY2U9InByZXNlcnZlIiB3aWR0aD0iMTZweCIgaGVpZ2h0PSIxNnB4Ij4KPGc+Cgk8cGF0aCBkPSJNNDQuMzczLDcuNjAzYy0xMC4xMzctMTAuMTM3LTI2LjYzMi0xMC4xMzgtMzYuNzcsMGMtMTAuMTM4LDEwLjEzOC0xMC4xMzcsMjYuNjMyLDAsMzYuNzdzMjYuNjMyLDEwLjEzOCwzNi43NywwICAgQzU0LjUxLDM0LjIzNSw1NC41MSwxNy43NCw0NC4zNzMsNy42MDN6IE0zNi4yNDEsMzYuMjQxYy0wLjc4MSwwLjc4MS0yLjA0NywwLjc4MS0yLjgyOCwwbC03LjQyNS03LjQyNWwtNy43NzgsNy43NzggICBjLTAuNzgxLDAuNzgxLTIuMDQ3LDAuNzgxLTIuODI4LDBjLTAuNzgxLTAuNzgxLTAuNzgxLTIuMDQ3LDAtMi44MjhsNy43NzgtNy43NzhsLTcuNDI1LTcuNDI1Yy0wLjc4MS0wLjc4MS0wLjc4MS0yLjA0OCwwLTIuODI4ICAgYzAuNzgxLTAuNzgxLDIuMDQ3LTAuNzgxLDIuODI4LDBsNy40MjUsNy40MjVsNy4wNzEtNy4wNzFjMC43ODEtMC43ODEsMi4wNDctMC43ODEsMi44MjgsMGMwLjc4MSwwLjc4MSwwLjc4MSwyLjA0NywwLDIuODI4ICAgbC03LjA3MSw3LjA3MWw3LjQyNSw3LjQyNUMzNy4wMjIsMzQuMTk0LDM3LjAyMiwzNS40NiwzNi4yNDEsMzYuMjQxeiIgZmlsbD0iIzAwMDAwMCIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo="
+            />
+          </div>
+        </div>
+
+        <div class="list">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="login.html">Log In</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="background-slider">
+        <div class="description">
+          <span>Welcome</span>
+          <h1>Choose PlayList</h1>
+          <p>Select your Favourite Playlist and Enjoy the Music</p>
+        </div>
+
+        <div class="image-slider">
+          <div class="image-container">
+            <a href="album-songs.html"
+              ><img src="albums/Screenshot (15).png"
+            /></a>
+            <a href="album-songs2.html"
+              ><img src="albums/Screenshot (17).png"
+            /></a>
+            <a href="album-songs3.html"
+              ><img src="albums/Screenshot (14).png"
+            /></a>
+            <a href="album-songs4.html"
+              ><img src="albums/Screenshot (16).png"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="playlist-section">
+        <h1>New Releases</h1>
+          <div class="container2">
+            <div class="sub-container2">
+            <div class="wrapper2">
+              <div class="banner-image" style="background-image: url(alltimefavourite/loveMeLikeYouDo.jpg);"> </div>
+             </div>
+             <div class="banner-image-details">
+              <span class="banner-image-details-head"><h4>Love me like you do</h4></span>
+              <span class="banner-image-details-artist"><p>ELLIE GOULDING</p></span>
+             </div>
+             <div class="button-wrapper2"> 
+               <button class="btn fill">PLAY NOW</button>
+             </div>
+            </div>
+
+            <div class="sub-container2">
+              <div class="wrapper2">
+                <div class="banner-image" style="background-image: url(alltimefavourite/closer.png);"> </div>
+              
+               </div>
+               <div class="banner-image-details">
+                <span class="banner-image-details-head"><h4>Closer</h4></span>
+                <span class="banner-image-details-artist"><p>THE CHAINSMOKERS</p></span>
+               </div>
+               <div class="button-wrapper2">
+                 <button class="btn fill">PLAY NOW</button>
+               </div>
+              </div>
+
+              <div class="sub-container2">
+                <div class="wrapper2">
+                  <div class="banner-image" style="background-image: url(alltimefavourite/faded.png);"> </div>
+                
+                 </div>
+                 <div class="banner-image-details">
+                  <span class="banner-image-details-head"><h4>Faded</h4></span>
+                  <span class="banner-image-details-artist"><p>ALAN WALKER</p></span>
+                 </div>
+                 <div class="button-wrapper2"> 
+                   <button class="btn fill">PLAY NOW</button>
+                 </div>
+                </div>
+
+            <div class="sub-container2">
+              <div class="wrapper2">
+                <div class="banner-image" style="background-image: url(alltimefavourite/letMeLoveYou.jpg);"> </div>
+            
+              
+               </div>
+               <div class="banner-image-details">
+                <span class="banner-image-details-head"><h4>Let me love you</h4></span>
+                <span class="banner-image-details-artist"><p>Justin Bieber</p></span>
+               </div>
+               <div class="button-wrapper2"> 
+                 <button class="btn fill">PLAY NOW</button>
+               </div>
+              </div>
+
+              <div class="sub-container2">
+                <div class="wrapper2">
+                  <div class="banner-image" style="background-image: url(alltimefavourite/perfect.jpg);"> </div>
+            
+                
+                 </div>
+                 <div class="banner-image-details">
+                  <span class="banner-image-details-head"><h4>Perfect</h4></span>
+                  <span class="banner-image-details-artist"><p>ED SHEERAN</p></span>
+                 </div>
+                 <div class="button-wrapper2"> 
+                   <button class="btn fill">PLAY NOW</button>
+                 </div>
+                </div>  
+          </div>
+          <h1>Moods</h1>
+          <div class="container2">
+            <div class="sub-container2">
+            <div class="wrapper2"> <div class="banner-image" style="background-image: url(mood/dance.jpg);"> </div>
+            
+            
+             </div>
+             <div class="banner-image-details">
+              <span class="banner-image-details-head"><h4>Dance</h4></span>
+             
+             </div>
+             <div class="button-wrapper2"> 
+             <button class="btn outline">PREVIEW</button>
+               <a href="soundsystem.html"><button class="btn fill" onclick="">PLAY NOW</button></a>
+             </div>
+            </div>
+
+            <div class="sub-container2">
+              <div class="wrapper2"> <div class="banner-image" style="background-image: url(mood/romantic.avif);"> </div>
+              
+              
+               </div>
+               <div class="banner-image-details">
+                <span class="banner-image-details-head"><h4>Romance</h4></span>
+               </div>
+               <div class="button-wrapper2"> 
+               <button class="btn outline">PREVIEW</button>
+                 <button class="btn fill">PLAY NOW</button>
+               </div>
+              </div>
+
+            <div class="sub-container2">
+              <div class="wrapper2">
+                <div class="banner-image" style="background-image: url(mood/sad.webp);"> </div>
+            
+               </div>
+               <div class="banner-image-details">
+                <span class="banner-image-details-head"><h4>Sad</h4></span>
+               </div>
+               <div class="button-wrapper2"> 
+               <button class="btn outline">PREVIEW</button>
+                 <button class="btn fill">PLAY NOW</button>
+               </div>
+              </div>
+
+              <div class="sub-container2">
+                <div class="wrapper2">
+                  <div class="banner-image" style="background-image: url(mood/roadTrip2.webp);"> </div>
+            
+                
+                 </div>
+                 <div class="banner-image-details">
+                  <span class="banner-image-details-head"><h4>Road Trip</h4></span>
+                 </div>
+                 <div class="button-wrapper2"> 
+                 <button class="btn outline">PREVIEW</button>
+                   <button class="btn fill">PLAY NOW</button>
+                 </div>
+                </div>  
+          </div>
+
+          <!-- Artists Name -->
+          <h1>top Artists</h1>
+          <div class="responsive-container-block outer-container">
+            <div class="responsive-container-block inner-container">
+              <div class="responsive-container-block">
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                  <div class="team-card">
+                    <div class="img-wrapper">
+                      <img class="team-img" src="artists/zaynMalik.jpg">
+                    </div>
+                    <p class="text-blk name">
+                      Zayn Malik
+                    </p>
+                  </div>
+                </div>
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                  <div class="team-card">
+                    <div class="img-wrapper">
+                      <img class="team-img" src="artists/arijitSingh.jpg">
+                    </div>
+                    <p class="text-blk name">
+                      Arijit SINGH
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                  <div class="team-card">
+                    <div class="img-wrapper">
+                      <img class="team-img" src="artists/billieEilish.jpg">
+                    </div>
+                    <p class="text-blk name">
+                      Billie Eilish
+                    </p>
+                  </div>
+                </div>
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                  <div class="team-card">
+                    <div class="img-wrapper">
+                      <img class="team-img" src="artists/shawn mendes.jpg">
+                    </div>
+                    <p class="text-blk name">
+                      Shawn Mendes
+                    </p>
+                  </div>
+                </div>
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                  <div class="team-card">
+                    <div class="img-wrapper">
+                      <img class="team-img" src="artists/ariansgrande.jpg">
+                    </div>
+                    <p class="text-blk name">
+                     Ariana Grande
+                    </p>
+                  </div>
+                </div>
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                  <div class="team-card">
+                    <div class="img-wrapper">
+                      <img class="team-img" src="artists/theweekend.jpg">
+                    </div>
+                    <p class="text-blk name">
+                      The Weekend
+                    </p>
+                  </div>
+                </div>
+                
+                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+                  <div class="team-card">
+                    <div class="img-wrapper">
+                      <img class="team-img" src="artists/edSheeran.jpg">
+                    </div>
+                    <p class="text-blk name">
+                      Ed Sheeran
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- About Section -->
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+    </ul>
+    <p>&copy;2024 Sound System | All Rights Reserved</p>
+  </footer>
+    <script src="vibrodo-deck.js"></script>
+  </body>
+</html>
